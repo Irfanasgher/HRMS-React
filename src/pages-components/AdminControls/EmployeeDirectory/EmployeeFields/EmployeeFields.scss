@@ -1,0 +1,153 @@
+#employeeFields {
+  background-color: #f5f5fb !important;
+  //   height: 100vh;
+  .addOrganization {
+    position: relative;
+    background: #fff;
+    // height: 200px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+    // padding: 70px 120px !important;
+    padding: 70px 200px 70px 120px !important;
+    .editContainer {
+      position: absolute;
+      top: 40px;
+      right: 60px;
+    }
+    .box {
+      background-color: #fff;
+      border-radius: 50%;
+      height: 130px;
+      width: 130px;
+    }
+    .organizationName {
+      font-size: 20px;
+      line-height: 29px;
+      font-weight: bold;
+      font-family: "heebo";
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 10px !important;
+    }
+    .owner {
+      color: #fff;
+      font-size: 12px;
+      font-family: "heebo";
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+  }
+  .tableContainer {
+    background: #fff;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px !important;
+    overflow: hidden;
+    // padding-bottom: 20px !important;
+    // overflow: scroll;
+  }
+  .tableContainer1 {
+    background: #fff;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px !important;
+  }
+  .table.table-alternate-spaced tbody tr td:last-child::before {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: #e6e7f1 solid 0px !important;
+    border-radius: 0;
+  }
+  .table.table-alternate-spaced tbody tr td:first-child::before {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-left: #e6e7f1 solid 0px !important;
+    border-radius: 0;
+  }
+  .css-12zlm52-ReactDropdownSelect {
+    border: 1px solid #0091fb !important;
+    background: #0091fb !important;
+    color: #fff !important;
+    width: 140px !important;
+    padding: 2px 10px !important;
+  }
+  .react-dropdown-select {
+    z-index: inherit !important;
+  }
+  .css-148o527-ItemComponent:hover,
+  .css-148o527-ItemComponent:focus {
+    border: 1px solid #0091fb !important;
+    background: #0091fb !important;
+    color: #fff !important;
+    outline: none;
+  }
+  .css-148o527-ItemComponent.react-dropdown-select-item-selected {
+    background: #0091fb !important;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .css-1j547uo-InputComponent {
+    color: #fff !important;
+  }
+  .selct-pepl .css-1j547uo-InputComponent::placeholder {
+    color: #fff !important;
+  }
+  .css-2o2l64-InputComponent,
+  .css-1y1ggs7-InputComponent,
+  .css-ftjrrm-InputComponent,
+  .css-1j547uo-InputComponent,
+  .css-1qd4wig-InputComponent,
+  .css-1uu3dr9-InputComponent,
+  .css-xo9x2x-InputComponent {
+    width: 95px !important;
+    margin-left: 0 !important;
+    &::placeholder {
+      color: #fff;
+    }
+  }
+  // .selct-pepl .css-12zlm52-ReactDropdownSelect .css-1f1x4zz-InputComponent::placeholder {
+  //     color: #fff !important;
+  // }
+  .css-148o527-ItemComponent {
+    background-color: #0091fb !important;
+  }
+  .input-group-seamless .form-control {
+    background: #00c74e !important;
+    border: 1px solid #00c74e !important;
+    color: white;
+    &::placeholder {
+      color: #fff;
+    }
+  }
+  .svg-inline--fa.fa-w-16 {
+    width: 1em;
+    color: white;
+  }
+}
+.form-control-file,
+.form-control-range {
+  display: inline-block !important;
+  width: auto !important;
+}
+.react-datepicker-wrapper {
+  display: block;
+  z-index: 100;
+  width: calc(100% - 57px) !important;
+}
+.input-group-prepend,
+.input-group-append {
+  display: flex;
+  width: 57px;
+}
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.53rem 1.3rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff !important;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #3c44b1 !important;
+  border: 1px solid #3c44b1 !important;
+  border-radius: 0.29rem;
+}
